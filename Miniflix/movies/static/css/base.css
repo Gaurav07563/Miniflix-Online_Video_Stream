@@ -1,0 +1,36 @@
+body
+{
+background-color: #f3eef7;
+background-image: url("https://xbox-store-checker.com/assets/upload/game/2019/02/optimize/9wzdncrfj3tj-background.jpg");
+min-height:380px;
+padding: 256px;
+
+  /* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+}
+
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li
+{
+    padding-top: 60px;
+    list-style-type: none;
+}
+
+.logo
+{
+    display: flex;
+}
+.logo > h3
+{
+    padding-top:60px;
+    font-weight: bolder;
+}
